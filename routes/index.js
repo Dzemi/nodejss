@@ -29,4 +29,9 @@ router.get('/code', (req, res) => {
    res.render('code');
 });
 
+router.get('/dzem', (req, res) => {
+   res.render('dzem');
+});
+
+
 module.exports = router;
